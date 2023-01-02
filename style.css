@@ -1,0 +1,256 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+:root {
+	--soft-red: hsl(7, 99%, 70%);
+	--yellow: hsl(51, 100%, 49%);
+	--dark-desaturated-cyan: hsl(167, 40%, 24%);
+	--dark-blue: hsl(198, 62%, 26%);
+	--dark-moderate-cyan: hsl(168, 34%, 41%);
+	--very-dark-desaturated-blue: hsl(212, 27%, 19%);
+	--very-dark-grayish-blue: hsl(213, 9%, 39%);
+	--dark-grayish-blue: hsl(232, 10%, 55%);
+	--grayish-blue: hsl(210, 4%, 67%);
+	--white: hsl(0, 0%, 100%);
+}
+
+body {
+	font-size: 18px;
+}
+
+header {
+	background-image: url(./images/mobile/image-header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 8% 5%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav button {
+	display: inline-block;
+	padding: 0.25rem 0rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: 0px;
+	transition: box-shadow 0.15s ease-in-out;
+}
+
+.menu-icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(./images/icon-hamburger.svg);
+}
+
+.heading {
+	text-align: center;
+	margin-top: 25%;
+	margin-bottom: 10%;
+}
+
+.heading-content {
+	color: var(--white);
+	font-family: "Fraunces 9pt Black";
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+}
+
+.arrow {
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.flex {
+	display: flex;
+}
+
+.transform img,
+.stand-out img {
+	width: 100%;
+}
+
+.text-section {
+	background: hsl(7, 99%, 70%, 0.1);
+	padding: 18% 5%;
+	text-align: center;
+}
+
+.headline {
+	font-family: "Fraunces 9pt Black";
+	font-size: 2.2rem;
+	color: var(--very-dark-desaturated-blue);
+	font-weight: 900;
+}
+
+.text-section p {
+	margin-top: 10%;
+	font-family: "Barlow";
+	font-weight: 600;
+	color: var(--dark-grayish-blue);
+	line-height: 1.7;
+	font-size: 1.15rem;
+	margin-bottom: 2.5rem;
+}
+
+.learn-more {
+	font-family: "Fraunces 9pt Black";
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--very-dark-desaturated-blue);
+	word-spacing: 0.3rem;
+}
+
+.underline {
+	background-color: hsl(51, 100%, 49%, 0.3);
+	border: 1px transparent;
+	border-radius: 0.4rem;
+	height: 0.6rem;
+	margin-top: -0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 9rem;
+}
+
+.underline-pink {
+	background-color: hsl(7, 99%, 70%, 0.3);
+}
+
+.graphic-design {
+	display: flex;
+	background-image: url(./images/mobile/image-graphic-design.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 89.9vh;
+}
+
+.graphic-design .text-section {
+	align-self: flex-end;
+	padding: 18% 3%;
+	color: var(--dark-desaturated-cyan);
+	background-color: transparent;
+}
+
+.graphic-design .text-section p {
+	font-size: 1rem;
+	color: var(--dark-desaturated-cyan);
+	margin-bottom: 0;
+	margin-top: 2.2rem;
+}
+
+.photography {
+	display: flex;
+	background-image: url(./images/mobile/image-photography.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 89.9vh;
+}
+
+.photography .text-section {
+	align-self: flex-end;
+	padding: 18% 3%;
+	color: var(--dark-blue);
+	background-color: transparent;
+}
+
+.photography .text-section p {
+	font-size: 1rem;
+	color: var(--very-dark-desaturated-blue);
+	margin-bottom: 0;
+	margin-top: 2.2rem;
+}
+
+.testimonials {
+	background-color: hsl(7, 99%, 70%, 0.05);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 18%;
+	padding-bottom: 22%;
+	text-align: center;
+}
+
+.testimonials-heading {
+	font-family: "Fraunces 9pt Black";
+	font-weight: 700;
+	color: var(--grayish-blue);
+	letter-spacing: 0.2rem;
+}
+
+.clients img {
+	width: 5rem;
+	border: 1px transparent;
+	border-radius: 50%;
+}
+
+.client {
+	margin-top: 4rem;
+}
+
+.quote {
+	margin-top: 2rem;
+	font-family: "Barlow";
+	font-weight: 600;
+	color: var(--very-dark-grayish-blue);
+	line-height: 1.7;
+	font-size: 1.15rem;
+}
+
+.name {
+	font-family: "Fraunces 9pt Black";
+	font-weight: 700;
+	margin-top: 2rem;
+}
+
+.role {
+	margin-top: 1rem;
+	font-family: "Barlow";
+	font-weight: 600;
+	color: var(--grayish-blue);
+	font-size: 1.05rem;
+}
+
+.collage {
+	height: 380px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.collage img {
+	width: 100%;
+}
+
+footer {
+	background-color: hsla(168, 34%, 41%, 0.6);
+	padding: 20% 5%;
+	text-align: center;
+	color: var(--dark-desaturated-cyan);
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+	font-family: "Barlow";
+	color: var(--dark-moderate-cyan);
+	font-weight: 600;
+}
+
+.contacts {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 5rem;
+}
