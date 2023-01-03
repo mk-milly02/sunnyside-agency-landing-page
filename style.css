@@ -43,6 +43,49 @@ nav button {
 	transition: box-shadow 0.15s ease-in-out;
 }
 
+.triangle {
+	width: 0;
+	height: 0;
+	border-bottom: 25px solid var(--white);
+	border-left: 25px solid transparent;
+	align-self: flex-end;
+}
+
+.menu {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	top: 5rem;
+	z-index: 1041;
+	width: 90%;
+}
+
+.show {
+	display: flex;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 15% 0%;
+	background-color: var(--white);
+	margin-top: -0.1rem;
+}
+
+.nav-links ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	list-style: none;
+	font-family: "Barlow";
+	font-weight: 600;
+	color: var(--very-dark-grayish-blue);
+	gap: 2.5rem;
+}
+
 .menu-icon {
 	display: inline-block;
 	width: 1.5em;
@@ -240,7 +283,7 @@ footer {
 
 .links {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	margin-top: 3rem;
 	font-family: "Barlow";
@@ -253,4 +296,19 @@ footer {
 	gap: 1rem;
 	justify-content: center;
 	margin-top: 5rem;
+}
+
+.btn {
+	cursor: pointer;
+	border: 0;
+	border-radius: 1.5rem;
+	padding: 0.75em 1.5em;
+	font-family: "Fraunces 9pt Black";
+	font-weight: 700;
+	font-size: 1rem;
+	color: black;
+	background-color: var(--yellow);
+	text-transform: uppercase;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }

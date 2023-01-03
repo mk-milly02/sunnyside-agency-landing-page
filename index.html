@@ -11,9 +11,20 @@
 		<header>
 			<nav>
 				<img src="./images/logo.svg" alt="logo" />
-				<button type="button">
+				<button type="button" onclick="toggleMenu()">
 					<span class="menu-icon"></span>
 				</button>
+				<div class="menu">
+					<div class="triangle"></div>
+					<div class="nav-links">
+						<ul>
+							<li><a>About</a></li>
+							<li><a>Services</a></li>
+							<li><a>Projects</a></li>
+							<li><a class="btn">Contact</a></li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 			<div class="heading">
 				<span class="heading-content">We are creatives</span>
@@ -138,7 +149,6 @@
 			<div class="links">
 				<a>About</a>
 				<a>Services</a>
-				<a>Projects</a>
 				<a>Contact</a>
 			</div>
 			<div class="contacts">
@@ -148,5 +158,6 @@
 				<img src="./images/icon-pinterest.svg" alt="icon-pinterest" />
 			</div>
 		</footer>
+		<script src="./app.js"></script>
 	</body>
 </html>
