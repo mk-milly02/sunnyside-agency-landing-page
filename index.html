@@ -34,11 +34,22 @@
 			</div>
 		</header>
 		<main>
-			<section class="transform">
-				<div class="flex">
-					<img src="./images/mobile/image-transform.jpg" alt="image-transform" />
+			<section class="main-grid">
+				<div class="flex grid-item-2">
+					<picture>
+						<source
+							media="(max-width: 600px)"
+							srcset="./images/mobile/image-transform.jpg"
+						/>
+						<source srcset="./images/desktop/image-transform.jpg" />
+						<img
+							class="img"
+							src="./images/desktop/image-transform.jpg"
+							alt="image-transform"
+						/>
+					</picture>
 				</div>
-				<div class="text-section">
+				<div class="text-section grid-item-1">
 					<span class="headline">Transform your brand</span>
 					<p>
 						We are a full-service creative agency specializing in helping brands grow
@@ -50,12 +61,21 @@
 						<div class="underline"></div>
 					</a>
 				</div>
-			</section>
-			<section class="stand-out">
-				<div class="flex">
-					<img src="./images/mobile/image-stand-out.jpg" alt="image-stand-out" />
+				<div class="flex grid-item-3">
+					<picture>
+						<source
+							media="(max-width: 600px)"
+							srcset="./images/mobile/image-stand-out.jpg"
+						/>
+						<source srcset="./images/desktop/image-stand-out.jpg" />
+						<img
+							class="img"
+							src="./images/desktop/image-stand-out.jpg"
+							alt="image-stand-out"
+						/>
+					</picture>
 				</div>
-				<div class="text-section">
+				<div class="text-section grid-item-4">
 					<span class="headline">Stand out to the right audience</span>
 					<p>
 						Using a collaborative formula of designers, researchers, photographers,
@@ -67,25 +87,26 @@
 						<div class="underline underline-pink"></div>
 					</a>
 				</div>
+				<section class="graphic-design">
+					<div class="text-section">
+						<span class="headline">Graphic design</span>
+						<p>
+							Great design makes you memorable. We deliver artwork that underscores
+							your brand message and captures potential clients’ attention.
+						</p>
+					</div>
+				</section>
+				<section class="photography">
+					<div class="text-section">
+						<span class="headline">Photography</span>
+						<p>
+							Increase your credibility by getting the most stunning, high-quality
+							photos that improve your business image.
+						</p>
+					</div>
+				</section>
 			</section>
-			<section class="graphic-design">
-				<div class="text-section">
-					<span class="headline">Graphic design</span>
-					<p>
-						Great design makes you memorable. We deliver artwork that underscores your
-						brand message and captures potential clients’ attention.
-					</p>
-				</div>
-			</section>
-			<section class="photography">
-				<div class="text-section">
-					<span class="headline">Photography</span>
-					<p>
-						Increase your credibility by getting the most stunning, high-quality photos
-						that improve your business image.
-					</p>
-				</div>
-			</section>
+
 			<section class="testimonials">
 				<h4 class="testimonials-heading">CLIENT TESTIMONIALS</h4>
 				<div class="clients">
@@ -122,23 +143,51 @@
 			</section>
 			<section class="collage">
 				<div class="flex">
+					<picture>
+						<source
+							media="(max-width: 600px)"
+							srcset="./images/mobile/image-gallery-milkbottles.jpg"
+						/>
+						<source srcset="./images/desktop/image-gallery-milkbottles.jpg" />
+					</picture>
 					<img
-						src="./images/mobile/image-gallery-milkbottles.jpg"
+						src="./images/desktop/image-gallery-milkbottles.jpg"
 						alt="image-gallery-milkbottles"
 					/>
 				</div>
 				<div class="flex">
+					<picture>
+						<source
+							media="(max-width: 600px)"
+							srcset="./images/mobile/image-gallery-orange.jpg"
+						/>
+						<source srcset="./images/desktop/image-gallery-orange.jpg" />
+					</picture>
 					<img
-						src="./images/mobile/image-gallery-orange.jpg"
+						src="./images/desktop/image-gallery-orange.jpg"
 						alt="image-gallery-orange"
 					/>
 				</div>
 				<div class="flex">
-					<img src="./images/mobile/image-gallery-cone.jpg" alt="image-gallery-cone" />
+					<picture>
+						<source
+							media="(max-width: 600px)"
+							srcset="./images/mobile/image-gallery-cone.jpg"
+						/>
+						<source srcset="./images/desktop/image-gallery-cone.jpg" />
+					</picture>
+					<img src="./images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone" />
 				</div>
 				<div class="flex">
+					<picture>
+						<source
+							media="(max-width: 600px)"
+							srcset="./images/mobile/image-gallery-sugar-cubes.jpg"
+						/>
+						<source srcset="./images/desktop/image-gallery-sugar-cubes.jpg" />
+					</picture>
 					<img
-						src="./images/mobile/image-gallery-sugar-cubes.jpg"
+						src="./images/desktop/image-gallery-sugarcubes.jpg"
 						alt="image-gallery-sugar-cubes"
 					/>
 				</div>
