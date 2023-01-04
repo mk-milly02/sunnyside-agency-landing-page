@@ -270,10 +270,6 @@ nav button {
 	grid-template-rows: repeat(2, 1fr);
 }
 
-.collage img {
-	width: 100%;
-}
-
 footer {
 	background-color: hsla(168, 34%, 41%, 0.6);
 	padding: 20% 5%;
@@ -293,9 +289,14 @@ footer {
 
 .contacts {
 	display: flex;
-	gap: 1rem;
+	gap: 1.5rem;
 	justify-content: center;
+	align-items: center;
 	margin-top: 5rem;
+}
+
+.contacts img {
+	vertical-align: middle;
 }
 
 .btn {
@@ -409,6 +410,7 @@ footer {
 	}
 
 	.underline {
+		width: 8.2rem;
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -445,6 +447,7 @@ footer {
 
 	.collage {
 		display: flex;
+		height: auto;
 	}
 
 	.collage div {
@@ -459,5 +462,36 @@ footer {
 		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.btn:hover {
+		color: var(--white);
+		background-color: hsl(0, 0%, 100%, 0.3);
+	}
+
+	.text-section a {
+		display: inline-block;
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	#learn-more-1:hover > div {
+		background-color: var(--yellow);
+	}
+
+	#learn-more-2:hover > div {
+		background-color: var(--soft-red);
+	}
+
+	a {
+		cursor: pointer;
+	}
+
+	.links a:hover {
+		color: var(--white);
+	}
+
+	.contacts a:hover > img {
+		filter: brightness(0) invert(1);
 	}
 }
