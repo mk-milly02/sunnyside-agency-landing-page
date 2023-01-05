@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -104,7 +106,7 @@ nav button {
 
 .heading-content {
 	color: var(--white);
-	font-family: "Fraunces 9pt Black";
+	font-family: "Fraunces", serif;
 	font-size: 2.6rem;
 	text-transform: uppercase;
 	letter-spacing: 0.4rem;
@@ -131,7 +133,7 @@ nav button {
 }
 
 .headline {
-	font-family: "Fraunces 9pt Black";
+	font-family: "Fraunces", serif;
 	font-size: 2.2rem;
 	color: var(--very-dark-desaturated-blue);
 	font-weight: 900;
@@ -139,7 +141,7 @@ nav button {
 
 .text-section p {
 	margin-top: 10%;
-	font-family: "Barlow";
+	font-family: "Barlow", sans-serif;
 	font-weight: 600;
 	color: var(--dark-grayish-blue);
 	line-height: 1.7;
@@ -148,7 +150,7 @@ nav button {
 }
 
 .learn-more {
-	font-family: "Fraunces 9pt Black";
+	font-family: "Fraunces", serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: var(--very-dark-desaturated-blue);
@@ -224,7 +226,7 @@ nav button {
 }
 
 .testimonials-heading {
-	font-family: "Fraunces 9pt Black";
+	font-family: "Fraunces", serif;
 	font-weight: 700;
 	color: var(--grayish-blue);
 	letter-spacing: 0.2rem;
@@ -242,7 +244,7 @@ nav button {
 
 .quote {
 	margin-top: 2rem;
-	font-family: "Barlow";
+	font-family: "Barlow", sans-serif;
 	font-weight: 600;
 	color: var(--very-dark-grayish-blue);
 	line-height: 1.7;
@@ -250,21 +252,20 @@ nav button {
 }
 
 .name {
-	font-family: "Fraunces 9pt Black";
+	font-family: "Fraunces", serif;
 	font-weight: 700;
 	margin-top: 2rem;
 }
 
 .role {
 	margin-top: 1rem;
-	font-family: "Barlow";
+	font-family: "Barlow", sans-serif;
 	font-weight: 600;
 	color: var(--grayish-blue);
 	font-size: 1.05rem;
 }
 
 .collage {
-	height: 380px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
@@ -282,7 +283,7 @@ footer {
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 3rem;
-	font-family: "Barlow";
+	font-family: "Barlow", sans-serif;
 	color: var(--dark-moderate-cyan);
 	font-weight: 600;
 }
@@ -304,7 +305,7 @@ footer {
 	border: 0;
 	border-radius: 1.5rem;
 	padding: 0.75em 1.5em;
-	font-family: "Fraunces 9pt Black";
+	font-family: "Fraunces", serif;
 	font-weight: 700;
 	font-size: 1rem;
 	color: black;
@@ -356,7 +357,7 @@ footer {
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		font-family: "Barlow";
+		font-family: "Barlow", sans-serif;
 		font-weight: 600;
 		font-size: 1rem;
 		color: var(--white);
